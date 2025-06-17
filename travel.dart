@@ -31,7 +31,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 224, 204, 30),
+      backgroundColor: Colors.white,
       drawer: const AppDrawer(),
       body: Column(
         children: [
